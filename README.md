@@ -40,9 +40,8 @@ The processed data is successfully loaded into the `gold_windowed_metrics` table
 2. Spin up the infrastructure using:
    ```bash
    docker-compose up -d
-Access the Airflow UI at: http://localhost:8085
-
-Manually trigger the kafka_clickstream_pipeline DAG to start the data flow.
+3. Access the Airflow UI at: http://localhost:8085
+4. Manually trigger the kafka_clickstream_pipeline DAG to start the data flow.
 
 ---
 
