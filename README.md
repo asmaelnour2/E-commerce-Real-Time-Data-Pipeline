@@ -8,7 +8,7 @@ This project implements an end-to-end data engineering pipeline designed to proc
 ## 🏗️ Architecture
 The system leverages a fully Dockerized infrastructure to ensure scalability and ease of deployment.
 
-![Architecture Diagram](images/1000539157.png)
+![Architecture Diagram](images/architecture.jpeg)
 
 ---
 
@@ -27,12 +27,11 @@ The pipeline has been verified and tested successfully:
 
 ### 1. Airflow Orchestration
 The `kafka_clickstream_pipeline` DAG is configured and successfully executing tasks.
-![Airflow DAG Success](images/1000539168.jpg)
+![Airflow DAG Success]
 
 ### 2. Data Processing Verification
 The processed data is successfully loaded into the `gold_windowed_metrics` table within the PostgreSQL database, confirming the pipeline's end-to-end functionality.
-![PostgreSQL Output](images/1000539165.png)
-
+![PostgreSQL Output]
 ---
 
 ## ⚙️ How to Run
