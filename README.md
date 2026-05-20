@@ -40,3 +40,19 @@ The processed data is successfully loaded into the `gold_windowed_metrics` table
 2. Spin up the infrastructure using:
    ```bash
    docker-compose up -d
+Access the Airflow UI at: http://localhost:8085
+
+Manually trigger the kafka_clickstream_pipeline DAG to start the data flow.
+
+---
+
+## 💡 Key Learnings
+Mastering real-time data ingestion using Apache Kafka.
+
+Orchestrating complex workflows with Apache Airflow.
+
+Performing windowed transformations and aggregations using Apache Spark.
+
+Implementing robust data storage solutions with PostgreSQL.
+
+Developed as part of an intensive Data Engineering project.
